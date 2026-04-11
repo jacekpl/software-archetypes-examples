@@ -1,0 +1,18 @@
+{
+  "name": "archetypes-nodejs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "demo": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.20",
+    "pg": "^8.13.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^22.0.0"
+  }
+}

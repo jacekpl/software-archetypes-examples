@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/archetypes
+    username: app
+    password: app
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  main:
+    web-application-type: none
